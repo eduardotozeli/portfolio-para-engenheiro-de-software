@@ -1,0 +1,15 @@
+body{
+    background: #d1c5ae;
+    color: #222;
+    display: grid;
+    grid-template-columns: 1.fr 120px minmax(800px, 900px) 1.fr;
+}
+.aprensentação{
+    grid-column: 2;
+}
+.titulo{
+    font-weight: bolder;
+}
+.aiden{
+    grid-column: 4;
+}
